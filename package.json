@@ -1,6 +1,6 @@
 {
   "name": "react-use-input",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A hook whose setter can be directly given to HTML inputs",
   "main": "index.dist.js",
   "repository": "git@github.com:robcalcroft/react-use-input.git",
