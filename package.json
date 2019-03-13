@@ -2,13 +2,14 @@
   "name": "react-use-input",
   "version": "1.0.0",
   "description": "A hook whose setter can be directly given to HTML inputs",
-  "main": "index.js",
+  "main": "index.dist.js",
   "repository": "git@github.com:robcalcroft/react-use-input.git",
   "author": "Rob Calcroft <rob@calcroft.com>",
   "license": "MIT",
   "scripts": {
     "test": "eslint .",
-    "release": "yarn test && standard-version"
+    "build": "babel index.js --out-file index.dist.js",
+    "release": "yarn test && yarn build && standard-version"
   },
   "dependencies": {
     "react": "^16.8.4"
@@ -17,6 +18,9 @@
     "react": "16.8"
   },
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
     "eslint": "^5.15.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^4.1.0",
