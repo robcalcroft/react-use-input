@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [1.2.0](https://github.com/robcalcroft/react-use-input/compare/v1.1.0...v1.2.0) (2019-03-18)
+
+
+### Features
+
+* additionally return original state setter ([423a2da](https://github.com/robcalcroft/react-use-input/commit/423a2da))
+
+
+
 # [1.1.0](https://github.com/robcalcroft/react-use-input/compare/v1.0.0...v1.1.0) (2019-03-13)
 
 
