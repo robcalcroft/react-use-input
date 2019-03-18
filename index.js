@@ -7,5 +7,5 @@ export default function useInput(initialState = '', valueKey = 'value') {
     setValue(event.target[valueKey]);
   }
 
-  return [value, setValueFromEvent];
+  return [value, setValueFromEvent, setValue];
 }

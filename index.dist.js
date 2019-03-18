@@ -28,5 +28,5 @@ function useInput() {
     setValue(event.target[valueKey]);
   }
 
-  return [value, setValueFromEvent];
+  return [value, setValueFromEvent, setValue];
 }
