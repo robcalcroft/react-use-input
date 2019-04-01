@@ -3,7 +3,7 @@ A hook :fishing_pole_and_fish: whose setter can be directly given to HTML inputs
 
 This package is designed to be super simple and small; it won't add any bloat to your project. However, feel free to copy and paste the [code](https://raw.githubusercontent.com/robcalcroft/react-use-input/master/index.js) if you'd like to avoid another dependency :smile:
 
-Other packages use object spread syntax to achieve a similar, result but this package doesn't because:
+Other packages use object spread syntax to achieve a similar result, but this package doesn't because:
 - This way is much easier to read
 - You don't end up with bloat in your props for super simple use cases
 
