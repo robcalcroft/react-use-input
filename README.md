@@ -1,4 +1,7 @@
 # react-use-input
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/robcalcroft/react-use-input.svg)](https://greenkeeper.io/)
+
 A hook :fishing_pole_and_fish: whose setter can be directly given to HTML inputs
 
 This package is designed to be super simple and small; it won't add any bloat to your project. However, feel free to copy and paste the [code](https://raw.githubusercontent.com/robcalcroft/react-use-input/master/index.js) if you'd like to avoid another dependency :smile:
