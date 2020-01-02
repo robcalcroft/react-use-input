@@ -4,7 +4,7 @@
   "description": "A hook whose setter can be directly given to HTML inputs",
   "main": "index.dist.js",
   "repository": "git@github.com:robcalcroft/react-use-input.git",
-  "author": "Rob Calcroft <rob@calcroft.com>",
+  "author": "Rob Calcroft <robcalcroft@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
     "test": "eslint .",
